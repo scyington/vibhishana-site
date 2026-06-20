@@ -1,60 +1,88 @@
+
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #2b1d16;
-  color: #f4eadf;
-  line-height: 1.6;
+margin: 0;
+font-family: Arial, sans-serif;
+background: #120d14;
+color: #f4eee8;
+line-height: 1.6;
 }
 
-header {
-  text-align: center;
-  padding: 80px 20px;
-  background: #1c120e;
+.hero {
+min-height: 75vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: linear-gradient(135deg, #120d14, #392333, #6b3b2f);
+text-align: center;
+padding: 40px 20px;
 }
 
-h1 {
-  font-size: 64px;
-  margin: 0;
+.hero h1 {
+font-size: 72px;
+margin: 0;
+letter-spacing: 3px;
 }
 
-h2 {
-  color: #f2c078;
+.hero p {
+font-size: 22px;
+max-width: 700px;
+}
+
+main {
+max-width: 1000px;
+margin: auto;
+padding: 50px 20px;
 }
 
 section {
-  max-width: 900px;
-  margin: auto;
-  padding: 40px 20px;
+margin-bottom: 70px;
 }
 
-a {
-  color: #f2c078;
+h2 {
+font-size: 36px;
+color: #f2c078;
+}
+
+.tracks {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+gap: 24px;
+}
+
+.card {
+background: #211722;
+padding: 30px;
+border-radius: 18px;
+text-decoration: none;
+color: #f4eee8;
+border: 1px solid #4c3546;
+}
+
+.card:hover {
+transform: translateY(-4px);
+}
+
+.card h3 {
+color: #f2c078;
+font-size: 26px;
 }
 
 .button {
-  display: inline-block;
-  background: #f2c078;
-  color: #1c120e;
-  padding: 12px 20px;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
-}
-
-.albums {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-}
-
-.album {
-  background: #3a281f;
-  padding: 20px;
-  border-radius: 12px;
+display: inline-block;
+background: #f2c078;
+color: #120d14;
+padding: 14px 24px;
+border-radius: 999px;
+font-weight: bold;
+text-decoration: none;
+margin-top: 20px;
 }
 
 footer {
-  text-align: center;
-  padding: 30px;
-  background: #1c120e;
+text-align: center;
+padding: 30px;
+background: #0b080d;
+color: #c9bdb8;
 }
+
