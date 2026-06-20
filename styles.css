@@ -90,3 +90,15 @@ footer {
   padding: 30px;
   background: #09060b;
 }
+.album {
+  background: #1d1522;
+  padding: 16px;
+  border-radius: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #f4eee8;
+}
+
+.album:hover {
+  transform: translateY(-4px);
+}
