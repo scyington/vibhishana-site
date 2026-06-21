@@ -101,14 +101,12 @@ footer {
   transform: translateY(-4px);
 }
 .album-card img {
-    width: 100%;
-    max-width: 300px;
-    aspect-ratio: 1 / 1;
+    width: 180px;
+    height: 180px;
     object-fit: cover;
     display: block;
     margin: 0 auto;
 }
-
 .album-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
