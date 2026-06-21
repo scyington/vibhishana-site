@@ -132,3 +132,6 @@ footer {
     border-radius: 12px;
     width: 170px;
 }
+#featured-tracks .album-grid {
+    gap: 24px;
+}
