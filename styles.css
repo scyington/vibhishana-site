@@ -126,3 +126,9 @@ footer {
     display: block;
     margin: 0 auto;
 }
+#featured-tracks .album-card {
+    background: white;
+    padding: 16px;
+    border-radius: 12px;
+    width: 170px;
+}
