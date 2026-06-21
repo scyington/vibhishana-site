@@ -100,3 +100,11 @@ footer {
 .album:hover {
   transform: translateY(-4px);
 }
+.album-card img {
+    width: 100%;
+    max-width: 300px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
