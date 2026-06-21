@@ -133,5 +133,7 @@ footer {
     width: 170px;
 }
 #featured-tracks .album-grid {
+    display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
