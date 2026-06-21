@@ -137,3 +137,7 @@ footer {
     gap: 24px;
     flex-wrap: wrap;
 }
+#featured-tracks .album-card img {
+    object-fit: cover;
+    object-position: center 55%;
+}
