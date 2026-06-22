@@ -149,3 +149,36 @@ footer {
 #featured-tracks .album-card:hover {
     transform: translateY(-6px);
 }
+.hero {
+    background-image: url('human-head.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+.hero {
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+}
+
+.hero h2,
+.hero p,
+.hero .hero-buttons {
+    position: relative;
+    z-index: 1;
+}
