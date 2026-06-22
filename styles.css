@@ -30,8 +30,9 @@ body {
     font-style: italic;
     font-size: 1.3rem;
     font-weight: 300;
-    color: rgba(255,255,255,0.82);
+    color: rgba(255,255,255,0.75);
 }
+
 .hero h1 {
     font-size: 5rem;
     font-weight: 800;
