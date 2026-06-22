@@ -31,9 +31,16 @@ body {
     font-size: 5rem;
     font-weight: 800;
 }
-
+.hero p {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
 .hero p {
   font-size: 22px;
+}
+.hero p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 main {
