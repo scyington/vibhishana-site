@@ -7,9 +7,21 @@ body {
 }
 
 .hero {
-  text-align: center;
-  padding: 90px 20px;
-  background: linear-gradient(135deg, #100b13, #33203b, #6b3b2f);
+    position: relative;
+    min-height: 70vh;
+
+    background-image: url('human-hero.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 4rem 2rem;
 }
 
 .hero h1 {
