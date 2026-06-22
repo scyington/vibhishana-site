@@ -150,7 +150,7 @@ footer {
     transform: translateY(-6px);
 }
 .hero {
-    background-image: url('human-head.png');
+    background-image: url('human-hero.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
