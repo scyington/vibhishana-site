@@ -13,6 +13,9 @@ body {
 .hero-content {
     margin-left: 250px;
 }
+.hero-content {
+    transform: translateY(-50px);
+}
 .hero {
     position: relative;
     min-height: 85vh;
