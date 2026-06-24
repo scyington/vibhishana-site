@@ -217,3 +217,42 @@ footer {
     position: relative;
     z-index: 1;
 }
+.album-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.album-card a {
+    display: block;
+    position: relative;
+}
+
+.album-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding: 12px;
+    text-align: center;
+
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.album-card:hover .album-title {
+    opacity: 1;
+}
+
+background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.9),
+    rgba(0,0,0,0)
+);
