@@ -262,3 +262,39 @@ background: linear-gradient(
     position: relative;
     overflow: hidden;
 }
+.album {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.album img {
+    display: block;
+    width: 100%;
+}
+
+.album .album-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+
+    padding: 14px;
+    text-align: center;
+
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.album:hover .album-title {
+    opacity: 1;
+}
