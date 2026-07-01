@@ -296,19 +296,18 @@ background: linear-gradient(
     transition: opacity 0.3s ease;
 }
 /* CONTACT */
-
-.contact-section {
+#contact {
     padding: 80px 60px;
     background: #120f16;
 }
 
-.contact-section h2 {
+#contact h2 {
+    color: #d2a65c;
     font-size: 2.4rem;
-    color: #d2a65c;   /* Same gold as About */
     margin-bottom: 25px;
 }
 
-.contact-text {
+#contact p {
     max-width: 700px;
     font-size: 1.1rem;
     line-height: 1.8;
@@ -317,14 +316,15 @@ background: linear-gradient(
 }
 
 .email-link {
+    display: inline-block;
     color: #d2a65c;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
-    transition: color 0.3s ease;
 }
 
 .email-link:hover {
     color: white;
     text-decoration: underline;
 }
+
