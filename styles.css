@@ -298,42 +298,33 @@ background: linear-gradient(
 /* CONTACT */
 
 .contact-section {
-
-    padding: 100px 20px;
+    padding: 80px 60px;
     background: #120f16;
- 
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .contact-section h2 {
     font-size: 2.4rem;
+    color: #d2a65c;   /* Same gold as About */
     margin-bottom: 25px;
-    color: #f4eee8;
 }
 
 .contact-text {
-    max-width: 650px;
-    margin: 0 auto 35px;
+    max-width: 700px;
     font-size: 1.1rem;
     line-height: 1.8;
     color: #c8c0b8;
+    margin-bottom: 30px;
 }
 
-
-
-.album:hover .album-title {
-    opacity: 1;
-}
 .email-link {
     color: #d2a65c;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
-    transition: color .3s ease;
+    transition: color 0.3s ease;
 }
 
 .email-link:hover {
-    color: #ffffff;
+    color: white;
     text-decoration: underline;
 }
