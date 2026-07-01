@@ -295,6 +295,39 @@ background: linear-gradient(
     pointer-events: none;
     transition: opacity 0.3s ease;
 }
+/* CONTACT */
+
+.contact-section {
+    text-align: center;
+    padding: 100px 20px;
+    background: #120f16;
+}
+
+.contact-section h2 {
+    font-size: 2.4rem;
+    margin-bottom: 25px;
+    color: #f4eee8;
+}
+
+.contact-text {
+    max-width: 650px;
+    margin: 0 auto 35px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #c8c0b8;
+}
+
+.email-link {
+    color: #caa66a;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.email-link:hover {
+    color: white;
+}
 
 .album:hover .album-title {
     opacity: 1;
