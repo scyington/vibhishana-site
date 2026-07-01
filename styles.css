@@ -296,14 +296,16 @@ background: linear-gradient(
     transition: opacity 0.3s ease;
 }
 /* CONTACT */
+
+/* CONTACT */
 #contact {
-    padding: 80px 60px;
     background: #120f16;
+    margin-bottom: 70px;
 }
 
 #contact h2 {
-    color: #d2a65c;
-    font-size: 2.4rem;
+    color: #f2c078;
+    font-size: 34px;
     margin-bottom: 25px;
 }
 
@@ -317,7 +319,7 @@ background: linear-gradient(
 
 .email-link {
     display: inline-block;
-    color: #d2a65c;
+    color: #f2c078;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
