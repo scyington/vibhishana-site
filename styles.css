@@ -296,9 +296,9 @@ background: linear-gradient(
     transition: opacity 0.3s ease;
 }
 /* CONTACT */
-
 #contact {
     margin-top: 70px;
+    background: transparent;
 }
 
 #contact h2 {
