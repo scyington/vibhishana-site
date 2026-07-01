@@ -322,3 +322,7 @@ background: linear-gradient(
     color: white;
     text-decoration: underline;
 }
+
+#contact {
+    background: transparent !important;
+}
