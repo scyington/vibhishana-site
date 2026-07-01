@@ -320,18 +320,20 @@ background: linear-gradient(
     color: #c8c0b8;
 }
 
-.email-link {
-    color: #caa66a;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
 
-.email-link:hover {
-    color: white;
-}
 
 .album:hover .album-title {
     opacity: 1;
+}
+.email-link {
+    color: #d2a65c;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color .3s ease;
+}
+
+.email-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
