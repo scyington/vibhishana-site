@@ -324,5 +324,7 @@ background: linear-gradient(
 }
 
 #contact {
-    background: transparent !important;
+    background: none !important;
+    background-color: transparent !important;
+    padding: 0 !important;
 }
