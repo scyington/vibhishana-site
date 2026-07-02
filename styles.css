@@ -158,6 +158,12 @@ h2 {
 .album:hover .album-title {
     opacity: 1;
 }
+.albums {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    align-items: start;
+}
 
 /* FEATURED TRACKS */
 
