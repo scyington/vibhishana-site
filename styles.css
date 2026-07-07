@@ -324,3 +324,33 @@ footer {
     width: 220px;
     margin-top: 14px;
 }
+
+/* FEATURED TRACK HOVER TITLES */
+
+#featured-tracks .album-card {
+    position: relative;
+    overflow: hidden;
+}
+
+/* hide title by default */
+#featured-tracks .album-card::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 76px;
+
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+
+    opacity: 0;
+    transition: opacity 0.25s ease;
+}
+
+/* show title on hover */
+#featured-tracks .album-card:hover::after {
+    opacity: 1;
+}
