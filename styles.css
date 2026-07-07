@@ -166,106 +166,50 @@ h2 {
     align-items: start;
 }
 
+
 /* FEATURED TRACKS */
 
 #featured-tracks .album-grid {
     display: flex;
-    gap: 24px;
+    gap: 30px;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 #featured-tracks .album-card {
-    width: 170px;
-    border-radius: 12px;
-    transition: transform 0.3s ease;
+    width: 250px;
+    background: white;
+    padding: 16px;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    transform: none !important;
 }
 
 #featured-tracks .album-card:hover {
-    transform: translateY(-6px);
+    transform: none !important;
 }
 
-#featured-tracks .album-card img {
-    object-position: center 55%;
-}
-
-/* CONTACT */
-
-#contact {
-    background: none !important;
-    background-color: transparent !important;
-    padding: 0 !important;
-    margin-top: 110px;
-}
-
-#contact p {
-    max-width: 700px;
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color: #c8c0b8;
-    margin-bottom: 30px;
-}
-
-.email-link {
-    display: inline-block;
-    color: #f2c078;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-.email-link:hover {
-    color: white;
-    text-decoration: underline;
-}
-
-/* FOOTER */
-
-footer {
-    text-align: center;
-    padding: 30px;
-    background: #09060b;
-}
-/* FEATURED TRACK AUDIO PLAYER */
-
-/* FEATURED TRACK FINAL POLISH */
-
-/* round the actual artwork */
 #featured-tracks .album-card img {
     width: 220px;
     height: 220px;
-
     object-fit: cover;
-
-    background: white !important;
-    padding: 12px !important;
-
-    border-radius: 14px !important;
+    display: block;
+    margin: 0 auto;
+    padding: 0 !important;
+    background: none !important;
+    border-radius: 12px !important;
 }
 
-/* hover title */
-#featured-tracks .album-card::after {
-    content: attr(data-title);
-
-    position: absolute;
-
-    left: 28px;
-    right: 28px;
-    top: 190px;
-
-    background: rgba(0,0,0,0.75);
-    color: white;
-
-    padding: 10px;
-    text-align: center;
-
-    border-radius: 0 0 10px 10px;
-
-    opacity: 0;
-    transition: opacity 0.25s ease;
-
-    pointer-events: none;
+#featured-tracks audio {
+    width: 220px;
+    margin-top: 16px;
 }
 
-#featured-tracks .album-card:hover::after {
-    opacity: 1;
+#featured-tracks .album-title {
+    left: 16px;
+    right: 16px;
+    bottom: 76px;
+    border-radius: 0 0 12px 12px;
 }
