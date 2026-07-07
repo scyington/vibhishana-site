@@ -286,40 +286,41 @@ footer {
     box-shadow: none !important;
 }
 
-#featured-tracks .album-card {
-    width: 220px;
-}
+
+
 
 /* FINAL FEATURED TRACK STYLE */
 
 #featured-tracks .album-card {
-    width: 220px;
-    transition: none;
+    width: 240px;
+    background: #08040d;
+    border-radius: 12px;
+    padding: 16px;
+
+    transition: none !important;
 }
 
-/* restore white artwork frame */
+/* artwork */
 #featured-tracks .album-card img {
     width: 220px;
     height: 220px;
+
     object-fit: cover;
 
-    padding: 12px !important;
     background: white !important;
-    border-radius: 14px;
+    padding: 12px !important;
+    border-radius: 12px;
+
+    box-shadow: none !important;
 }
 
-/* stop cards moving on hover */
+/* no hover movement */
 #featured-tracks .album-card:hover {
     transform: none !important;
 }
 
-/* restore title appearing on hover */
-#featured-tracks .album-card:hover::after {
-    opacity: 1;
-}
-
-/* audio player alignment */
+/* audio */
 #featured-tracks audio {
     width: 220px;
-    margin-top: 12px;
+    margin-top: 14px;
 }
