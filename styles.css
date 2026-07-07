@@ -179,12 +179,14 @@ h2 {
 /* FEATURED TRACKS FINAL */
 
 #featured-tracks .album-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 258px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
     gap: 30px;
 
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
 }
 
 #featured-tracks .featured-track {
