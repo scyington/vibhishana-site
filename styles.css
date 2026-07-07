@@ -225,3 +225,19 @@ footer {
     padding: 30px;
     background: #09060b;
 }
+/* FEATURED TRACK AUDIO PLAYER */
+
+.featured-track {
+    cursor: pointer;
+}
+
+.featured-track audio {
+    width: 100%;
+    margin-top: 12px;
+}
+
+/* keep the same hover movement as albums */
+.featured-track:hover {
+    transform: translateY(-6px);
+    transition: transform 0.3s ease;
+}
