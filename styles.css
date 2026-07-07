@@ -279,3 +279,13 @@ footer {
     transform: translateY(-6px);
     transition: transform 0.3s ease;
 }
+#featured-tracks .album-card img {
+    padding: 0 !important;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#featured-tracks .album-card {
+    width: 220px;
+}
