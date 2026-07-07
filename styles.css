@@ -208,25 +208,33 @@ h2 {
 }
 
 /* hover title */
-/* hover title */
+/* featured track hover title */
+
 #featured-tracks .album-title {
     position: absolute;
 
     left: 14px;
     right: 14px;
-    top: 194px;
+    top: 218px;
 
-    padding: 8px;
-    height: auto;
+    padding: 4px 8px;
 
     background: rgba(0,0,0,0.75);
     color: white;
+
+    font-size: 14px;
+    line-height: 18px;
 
     border-radius: 0 0 10px 10px;
 
     opacity: 0;
     transition: opacity 0.3s ease;
+
     z-index: 20;
+}
+
+#featured-tracks .album-card:hover .album-title {
+    opacity: 1;
 }
 
 #featured-tracks .album-card:hover .album-title {
