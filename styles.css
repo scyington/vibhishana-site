@@ -169,22 +169,24 @@ h2 {
 
 
 
-/* FEATURED TRACKS */
+
+
+/* FEATURED TRACKS FINAL */
 
 #featured-tracks .album-grid {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    align-items: flex-start;
 }
 
 #featured-tracks .album-card {
-    width: 230px;
+    width: 250px;
     background: white;
-    padding: 8px;
-    border-radius: 14px;
-    position: relative;
+    padding: 12px;
+    border-radius: 16px;
+
     text-align: center;
+    position: relative;
 
     transform: none !important;
 }
@@ -195,63 +197,48 @@ h2 {
 
 /* artwork */
 #featured-tracks .album-card img {
-    width: 220px;
-    height: 220px;
+    width: 226px;
+    height: 226px;
 
     object-fit: cover;
     display: block;
 
     margin: 0 auto;
-    padding: 0 !important;
 
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
-/* hover title */
-/* featured track hover title */
-
+/* hover title ONLY over artwork */
 #featured-tracks .album-title {
     position: absolute;
 
-    left: 14px;
-    right: 14px;
-    top: 218px;
+    top: 202px;
+    left: 12px;
+    right: 12px;
 
-    padding: 4px 8px;
+    padding: 6px;
 
     background: rgba(0,0,0,0.75);
     color: white;
 
     font-size: 14px;
-    line-height: 18px;
+    font-weight: bold;
 
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 12px 12px;
 
     opacity: 0;
     transition: opacity 0.3s ease;
 
-    z-index: 20;
+    z-index: 5;
 }
 
 #featured-tracks .album-card:hover .album-title {
     opacity: 1;
 }
 
-#featured-tracks .album-card:hover .album-title {
-    opacity: 1;
-}
-
-#featured-tracks .album-card {
-    width: 240px;
-    background: white;
-    padding: 14px;
-    border-radius: 14px;
-    position: relative;
-    text-align: center;
-    transform: none !important;
-}
 /* player */
 #featured-tracks audio {
-    width: 220px;
-    margin-top: 12px;
+    width: 226px;
+    margin-top: 14px;
+    display: block;
 }
