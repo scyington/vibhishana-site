@@ -180,17 +180,15 @@ h2 {
 }
 
 #featured-tracks .featured-track {
-    width: 250px;
+    width: 258px;
     text-align: center;
 }
 
 #featured-tracks .album-card {
+    width: 226px;
     background: white;
     padding: 16px;
     border-radius: 16px;
-    position: relative;
-    overflow: hidden;
-    transform: none !important;
 }
 #featured-tracks .album-card:hover {
     transform: none !important;
