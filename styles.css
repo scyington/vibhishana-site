@@ -199,8 +199,12 @@ h2 {
 #featured-tracks .album-card img {
     width: 226px;
     height: 226px;
+
     object-fit: cover;
     display: block;
+
+    margin: 0 auto;
+
     border-radius: 12px;
 }
 
