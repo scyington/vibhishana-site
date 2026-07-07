@@ -208,15 +208,16 @@ h2 {
 }
 
 /* hover title */
+/* hover title */
 #featured-tracks .album-title {
     position: absolute;
 
     left: 14px;
     right: 14px;
-    top: 205px;
+    top: 194px;
 
-    height: 24px;
     padding: 8px;
+    height: auto;
 
     background: rgba(0,0,0,0.75);
     color: white;
@@ -225,13 +226,22 @@ h2 {
 
     opacity: 0;
     transition: opacity 0.3s ease;
+    z-index: 20;
+}
+
+#featured-tracks .album-card:hover .album-title {
+    opacity: 1;
 }
 
 #featured-tracks .album-card {
     width: 240px;
     background: white;
     padding: 14px;
-
+    border-radius: 14px;
+    position: relative;
+    text-align: center;
+    transform: none !important;
+}
 /* player */
 #featured-tracks audio {
     width: 220px;
