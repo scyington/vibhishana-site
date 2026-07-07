@@ -227,80 +227,9 @@ footer {
 }
 /* FEATURED TRACK AUDIO PLAYER */
 
-.featured-track {
-    cursor: pointer;
-}
+/* FEATURED TRACK FINAL POLISH */
 
-.featured-track audio {
-    width: 100%;
-    margin-top: 12px;
-}
-
-/* keep the same hover movement as albums */
-.featured-track:hover {
-    transform: translateY(-6px);
-    transition: transform 0.3s ease;
-}
-/* FEATURED TRACKS WITH LOCAL AUDIO */
-
-#featured-tracks .album-grid {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
-.featured-track {
-    width: 220px;
-    background: transparent;
-    text-align: center;
-}
-
-/* remove album-style frame */
-.featured-track img {
-    width: 220px;
-    height: 220px;
-    object-fit: cover;
-
-    border-radius: 12px;
-    padding: 0;
-    background: none;
-    box-shadow: none;
-}
-
-/* audio bar */
-.featured-track audio {
-    width: 220px;
-    margin-top: 12px;
-}
-
-/* hover lift */
-.featured-track:hover {
-    transform: translateY(-6px);
-    transition: transform 0.3s ease;
-}
-#featured-tracks .album-card img {
-    padding: 0 !important;
-    background: none !important;
-    border: none !important;
-    box-shadow: none !important;
-}
-
-
-
-
-/* FINAL FEATURED TRACK STYLE */
-
-#featured-tracks .album-card {
-    width: 240px;
-    background: #08040d;
-    border-radius: 12px;
-    padding: 16px;
-
-    transition: none !important;
-}
-
-/* artwork */
+/* round the actual artwork */
 #featured-tracks .album-card img {
     width: 220px;
     height: 220px;
@@ -309,48 +238,34 @@ footer {
 
     background: white !important;
     padding: 12px !important;
-    border-radius: 12px;
 
-    box-shadow: none !important;
+    border-radius: 14px !important;
 }
 
-/* no hover movement */
-#featured-tracks .album-card:hover {
-    transform: none !important;
-}
-
-/* audio */
-#featured-tracks audio {
-    width: 220px;
-    margin-top: 14px;
-}
-
-/* FEATURED TRACK HOVER TITLES */
-
-#featured-tracks .album-card {
-    position: relative;
-    overflow: hidden;
-}
-
-/* hide title by default */
+/* hover title */
 #featured-tracks .album-card::after {
     content: attr(data-title);
-    position: absolute;
-    left: 16px;
-    right: 16px;
-    bottom: 76px;
 
-    background: rgba(0, 0, 0, 0.75);
+    position: absolute;
+
+    left: 28px;
+    right: 28px;
+    top: 190px;
+
+    background: rgba(0,0,0,0.75);
     color: white;
+
     padding: 10px;
     text-align: center;
-    font-size: 1rem;
+
+    border-radius: 0 0 10px 10px;
 
     opacity: 0;
     transition: opacity 0.25s ease;
+
+    pointer-events: none;
 }
 
-/* show title on hover */
 #featured-tracks .album-card:hover::after {
     opacity: 1;
 }
