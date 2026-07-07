@@ -241,3 +241,41 @@ footer {
     transform: translateY(-6px);
     transition: transform 0.3s ease;
 }
+/* FEATURED TRACKS WITH LOCAL AUDIO */
+
+#featured-tracks .album-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.featured-track {
+    width: 220px;
+    background: transparent;
+    text-align: center;
+}
+
+/* remove album-style frame */
+.featured-track img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+
+    border-radius: 12px;
+    padding: 0;
+    background: none;
+    box-shadow: none;
+}
+
+/* audio bar */
+.featured-track audio {
+    width: 220px;
+    margin-top: 12px;
+}
+
+/* hover lift */
+.featured-track:hover {
+    transform: translateY(-6px);
+    transition: transform 0.3s ease;
+}
