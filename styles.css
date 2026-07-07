@@ -211,10 +211,11 @@ h2 {
 #featured-tracks .album-title {
     position: absolute;
 
-    left: 8px;
-    right: 8px;
-    top: 198px;
+    left: 14px;
+    right: 14px;
+    top: 205px;
 
+    height: 24px;
     padding: 8px;
 
     background: rgba(0,0,0,0.75);
@@ -223,11 +224,13 @@ h2 {
     border-radius: 0 0 10px 10px;
 
     opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
-#featured-tracks .album-card:hover .album-title {
-    opacity: 1;
-}
+#featured-tracks .album-card {
+    width: 240px;
+    background: white;
+    padding: 14px;
 
 /* player */
 #featured-tracks audio {
