@@ -118,7 +118,7 @@ h2 {
 
 .album-card a,
 .album a {
-    display: block;
+  
     position: relative;
 }
 
@@ -135,12 +135,14 @@ h2 {
 
 .album-title {
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
+
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+
     z-index: 10;
 
-    padding: 14px;
+    padding: 12px 0;
     text-align: center;
 
     background: rgba(0, 0, 0, 0.75);
@@ -149,6 +151,8 @@ h2 {
     font-size: 1rem;
     font-weight: 700;
     letter-spacing: 1px;
+
+    border-radius: 0 0 12px 12px;
 
     opacity: 0;
     pointer-events: none;
@@ -159,6 +163,7 @@ h2 {
 .album:hover .album-title {
     opacity: 1;
 }
+
 .albums {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
