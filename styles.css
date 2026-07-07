@@ -186,13 +186,12 @@ h2 {
 
 #featured-tracks .album-card {
     background: white;
-    padding: 12px;
+    padding: 16px;
     border-radius: 16px;
     position: relative;
     overflow: hidden;
     transform: none !important;
 }
-
 #featured-tracks .album-card:hover {
     transform: none !important;
 }
