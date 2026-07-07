@@ -167,6 +167,8 @@ h2 {
 }
 
 
+
+
 /* FEATURED TRACKS */
 
 #featured-tracks .album-grid {
@@ -177,13 +179,13 @@ h2 {
 }
 
 #featured-tracks .album-card {
-    width: 250px;
+    width: 230px;
     background: white;
-    padding: 16px;
-    border-radius: 16px;
-    overflow: hidden;
+    padding: 8px;
+    border-radius: 14px;
     position: relative;
     text-align: center;
+
     transform: none !important;
 }
 
@@ -191,25 +193,44 @@ h2 {
     transform: none !important;
 }
 
+/* artwork */
 #featured-tracks .album-card img {
     width: 220px;
     height: 220px;
+
     object-fit: cover;
     display: block;
+
     margin: 0 auto;
     padding: 0 !important;
-    background: none !important;
-    border-radius: 12px !important;
+
+    border-radius: 10px;
 }
 
+/* hover title */
+#featured-tracks .album-title {
+    position: absolute;
+
+    left: 8px;
+    right: 8px;
+    top: 198px;
+
+    padding: 8px;
+
+    background: rgba(0,0,0,0.75);
+    color: white;
+
+    border-radius: 0 0 10px 10px;
+
+    opacity: 0;
+}
+
+#featured-tracks .album-card:hover .album-title {
+    opacity: 1;
+}
+
+/* player */
 #featured-tracks audio {
     width: 220px;
-    margin-top: 16px;
-}
-
-#featured-tracks .album-title {
-    left: 16px;
-    right: 16px;
-    bottom: 76px;
-    border-radius: 0 0 12px 12px;
+    margin-top: 12px;
 }
