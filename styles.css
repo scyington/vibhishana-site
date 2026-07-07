@@ -289,3 +289,37 @@ footer {
 #featured-tracks .album-card {
     width: 220px;
 }
+
+/* FINAL FEATURED TRACK STYLE */
+
+#featured-tracks .album-card {
+    width: 220px;
+    transition: none;
+}
+
+/* restore white artwork frame */
+#featured-tracks .album-card img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+
+    padding: 12px !important;
+    background: white !important;
+    border-radius: 14px;
+}
+
+/* stop cards moving on hover */
+#featured-tracks .album-card:hover {
+    transform: none !important;
+}
+
+/* restore title appearing on hover */
+#featured-tracks .album-card:hover::after {
+    opacity: 1;
+}
+
+/* audio player alignment */
+#featured-tracks audio {
+    width: 220px;
+    margin-top: 12px;
+}
