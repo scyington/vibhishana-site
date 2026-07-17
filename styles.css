@@ -229,3 +229,21 @@ h2 {
     width: 226px;
     margin-top: 12px;
 }
+/* HEADING AND FOOTER ALIGNMENT */
+
+#featured-tracks {
+    width: 100%;
+}
+
+#featured-tracks > h2 {
+    width: 100%;
+    margin-left: 0;
+    text-align: left;
+}
+
+footer {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 30px 20px;
+}
