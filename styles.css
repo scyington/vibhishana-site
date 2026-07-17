@@ -176,55 +176,37 @@ h2 {
 
 
 
-/* FEATURED TRACKS FINAL */
+/* FEATURED TRACKS */
 
 #featured-tracks .album-grid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    justify-content: flex-start;
-    align-items: flex-start;
 }
 
 #featured-tracks .featured-track {
-    width: 258px;
     text-align: center;
 }
 
 #featured-tracks .album-card {
-    width: 226px;
     background: white;
     padding: 16px;
     border-radius: 16px;
 }
+
 #featured-tracks .album-card:hover {
-    transform: none !important;
+    transform: none;
 }
 
 #featured-tracks .album-card img {
-    width: 226px;
-    height: 226px;
-
+    width: 100%;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
-    display: block;
-
-    margin: 0 auto;
-
     border-radius: 12px;
 }
 
-#featured-tracks .album-title {
-    bottom: 16px;
-    left: 16px;
-    right: 16px;
-
-    padding: 8px 0;
-
-    border-radius: 0 0 12px 12px;
-}
 #featured-tracks audio {
-    width: 226px;
+    width: 100%;
     margin-top: 12px;
 }
 /* HEADING AND FOOTER ALIGNMENT */
