@@ -171,7 +171,54 @@ h2 {
     align-items: start;
 }
 
+/* FEATURED VIDEO */
 
+#featured-video {
+    margin-bottom: 60px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.video-card {
+    background: #1a141d;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    overflow: hidden;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.video-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.video-card video {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: black;
+}
+
+.video-info {
+    padding: 18px 20px;
+    text-align: left;
+}
+
+.video-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #f4eee8;
+}
+
+.video-artist {
+    margin-top: 5px;
+    font-size: 0.95rem;
+    color: rgba(244, 238, 232, 0.7);
+}
 
 
 
