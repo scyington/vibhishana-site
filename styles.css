@@ -277,7 +277,7 @@ footer {
 /* FEATURED VIDEO */
 
 #featured-video {
-    text-align: center;
+    margin-top: -10px;
 }
 
 .featured-video {
@@ -296,4 +296,8 @@ footer {
     margin-top: 14px;
     font-size: 1.25rem;
     font-weight: bold;
+}
+.video-card:hover {
+    transform: translateY(-4px);
+    transition: transform .25s ease;
 }
