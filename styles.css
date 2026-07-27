@@ -227,3 +227,26 @@ footer {
     text-align: center;
     padding: 30px 20px;
 }
+/* FEATURED VIDEO */
+
+#featured-video {
+    text-align: center;
+}
+
+.featured-video {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.featured-video video {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.video-title {
+    margin-top: 14px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
